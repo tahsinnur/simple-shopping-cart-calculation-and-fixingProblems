@@ -1,9 +1,6 @@
-body {
-  overflow-x: hidden;
-  font-family: "Montserrat", sans-serif;
-}
 .title-color{
-  color: teal;
+  color:seagreen;
+  font-weight: 600;
 }
 .single-product {
   transition: 0.6s;
