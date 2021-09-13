@@ -32,6 +32,7 @@ const showProducts = (products) => {
     document.getElementById("all-products").appendChild(div);
   }
 };
+// showing total products count, price, tax and grand total on cart
 let count = 0;
 const addToCart = (id, price) => {
   count = count + 1;
@@ -41,7 +42,7 @@ const addToCart = (id, price) => {
   updateTotal();
   document.getElementById("total-Products").innerText = count;
 };
-
+// getting values from cart
 const getInputValue = (id) => {
   const element = document.getElementById(id).innerText;
   const converted = parseFloat(element);
