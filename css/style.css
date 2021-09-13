@@ -19,6 +19,9 @@ body {
 .rating-color{
   color:orangered;
 }
+.reviewer-count-color{
+  color:maroon;
+}
 .cart {
   width: 350px;
   padding: 10px;
