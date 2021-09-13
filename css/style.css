@@ -13,8 +13,8 @@ body {
   border-radius: 10px;
 }
 .product-image {
-  width: 150px;
-  height: 150px;
+  height: 200px;
+  padding: 20px;
 }
 .rating-color{
   color:orangered;
@@ -23,6 +23,7 @@ body {
   color:maroon;
 }
 .cart {
+  background-color:mintcream;
   width: 350px;
   padding: 10px;
   box-shadow: 10px 10px 20px gray;
