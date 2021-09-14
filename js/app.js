@@ -19,9 +19,9 @@ const showProducts = (products) => {
       <div class="card-body">
         <h4 class="card-title">${product.title}</h4>
         <p class="card-text">Category: ${product.category}</p>
-        <h5 class="card-text">Price: $ <span class= text-primary>${product.price}</span></h5>
+        <h5 class="card-text">Price: $ <span class= "text-primary fw-bold">${product.price}</span></h5>
         <p>Product Rating: <span class="rating-color">${product.rating.rate}</span></p>
-        <p>Total Reviewers: <span class="reviewer-count-color">${product.rating.count}</span></p>
+        <p>Reviewed By <span class="reviewer-count-color">${product.rating.count}</span> Users</p>
       </div>
       <div class="card-footer d-flex justify-content-evenly bg-light border-0">
         <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-secondary">Add To Cart</button>

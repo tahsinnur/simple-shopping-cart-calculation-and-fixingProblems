@@ -1,7 +1,8 @@
+/* store title css */
 .title-color{
-  color:seagreen;
-  font-weight: 600;
+  color: #205072;
 }
+/* product showcase section css */
 .single-product {
   transition: 0.6s;
 }
@@ -15,16 +16,18 @@
 }
 .rating-color{
   color:orangered;
+  font-weight: 600;
 }
 .reviewer-count-color{
   color:maroon;
+  font-weight: 600;
 }
+/* shopping cart css */
 .cart {
   background-color:mintcream;
   width: 350px;
   padding: 10px;
   box-shadow: 10px 10px 20px gray;
   border-radius: 5px;
-  margin-right: 30px;
   position: fixed;
 }
